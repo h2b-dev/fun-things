@@ -12,7 +12,7 @@ A roguelike dungeon crawler. Explore 5 procedurally generated floors, fight enem
 ### Tiny Tower Defense
 A grid-based tower defense game. Place towers to stop waves of enemies from reaching the exit. 4 tower types, 4 enemy types, 12 waves of increasing difficulty.
 
-Open `tiny_td_web/index.html` in any modern browser.
+**[Play in your browser](https://h2b-dev.github.io/fun-things/tiny-td/)** | **[Play on itch.io](https://h2bdev.itch.io/tiny-tower-defense)**
 
 ## Install
 

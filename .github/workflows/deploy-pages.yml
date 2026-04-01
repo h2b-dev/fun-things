@@ -5,6 +5,7 @@ on:
     branches: [master]
     paths:
       - 'tiny_dungeon_web/**'
+      - 'tiny_td_web/**'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -25,9 +26,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Build site
+        run: |
+          mkdir -p _site
+          cp -r tiny_dungeon_web/* _site/
+          mkdir -p _site/tiny-td
+          cp -r tiny_td_web/* _site/tiny-td/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: tiny_dungeon_web
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
