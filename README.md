@@ -2,13 +2,31 @@
 
 A tiny roguelike dungeon crawler that runs in your terminal. Explore 5 procedurally generated floors, fight enemies, collect loot, and try to clear the dungeon.
 
-## How to Run
+## Install
+
+```bash
+pip install tiny-dungeon
+```
+
+Or with [uv](https://docs.astral.sh/uv/):
+
+```bash
+uv tool install tiny-dungeon
+```
+
+Then run:
+
+```bash
+tiny-dungeon
+```
+
+### Development
 
 ```bash
 uv run -m tiny_dungeon
 ```
 
-Requires Python 3.10+ and [uv](https://docs.astral.sh/uv/).
+Requires Python 3.10+.
 
 ## Controls
 

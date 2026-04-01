@@ -85,7 +85,7 @@ _INPUT = {
 }
 
 
-def main(stdscr: curses.window) -> None:
+def _game(stdscr: curses.window) -> None:
     curses.curs_set(0)
     stdscr.nodelay(False)
     stdscr.timeout(100)
@@ -106,5 +106,10 @@ def main(stdscr: curses.window) -> None:
             handler(key, state)
 
 
+def main() -> None:
+    """Entry point for the tiny-dungeon console script."""
+    curses.wrapper(_game)
+
+
 if __name__ == "__main__":
-    curses.wrapper(main)
+    main()
