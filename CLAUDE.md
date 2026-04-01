@@ -21,6 +21,11 @@ tiny_td_web/               — Tiny Tower Defense (JS/Canvas)
   index.html               — Entry point, open in browser
   style.css                — Layout and styling
   game.js                  — All game logic, rendering, input (single file, no deps)
+
+tiny_puzzle_web/           — Tiny Puzzle / Sokoban (JS/Canvas)
+  index.html               — Entry point, open in browser
+  style.css                — Layout and styling
+  game.js                  — All game logic, rendering, input (single file, no deps)
 ```
 
 ## Running
@@ -30,7 +35,7 @@ Terminal version (Tiny Dungeon):
 uv run -m tiny_dungeon
 ```
 
-Browser games: open `tiny_dungeon_web/index.html` or `tiny_td_web/index.html` in a browser.
+Browser games: open `tiny_dungeon_web/index.html`, `tiny_td_web/index.html`, or `tiny_puzzle_web/index.html` in a browser.
 
 ## Key Design Decisions
 
@@ -47,3 +52,10 @@ Browser games: open `tiny_dungeon_web/index.html` or `tiny_td_web/index.html` in
 - **4 enemy types**: Normal, Fast, Tank, Flying (only hit by Arrow/Lightning)
 - **12 waves**: escalating difficulty with mixed enemy compositions
 - **Economy**: start with 150 gold, earn gold per kill, spend on towers
+
+### Tiny Puzzle
+- **Classic Sokoban**: push crates onto target squares
+- **25 hand-crafted levels**: increasing difficulty, each with a par move count
+- **Undo system**: full move-by-move undo via history stack
+- **Level select**: click-to-play grid with completion tracking and best scores
+- **Progress persistence**: localStorage saves completed levels and best move counts

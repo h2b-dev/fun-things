@@ -14,6 +14,11 @@ A grid-based tower defense game. Place towers to stop waves of enemies from reac
 
 **[Play in your browser](https://h2b-dev.github.io/fun-things/tiny-td/)** | **[Play on itch.io](https://h2bdev.itch.io/tiny-tower-defense)**
 
+### Tiny Puzzle
+A Sokoban-style puzzle game. Push crates onto target squares across 25 hand-crafted levels. Features undo, level select, move counter with par targets, and progress saving.
+
+**[Play in your browser](https://h2b-dev.github.io/fun-things/tiny-puzzle/)**
+
 ## Install
 
 ```bash

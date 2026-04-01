@@ -6,6 +6,7 @@ on:
     paths:
       - 'tiny_dungeon_web/**'
       - 'tiny_td_web/**'
+      - 'tiny_puzzle_web/**'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -32,6 +33,8 @@ jobs:
           cp -r tiny_dungeon_web/* _site/
           mkdir -p _site/tiny-td
           cp -r tiny_td_web/* _site/tiny-td/
+          mkdir -p _site/tiny-puzzle
+          cp -r tiny_puzzle_web/* _site/tiny-puzzle/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
