@@ -8,6 +8,7 @@ on:
       - 'tiny_td_web/**'
       - 'tiny_puzzle_web/**'
       - 'tiny_breakout_web/**'
+      - 'tiny_space_web/**'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -38,6 +39,8 @@ jobs:
           cp -r tiny_puzzle_web/* _site/tiny-puzzle/
           mkdir -p _site/tiny-breakout
           cp -r tiny_breakout_web/* _site/tiny-breakout/
+          mkdir -p _site/tiny-space
+          cp -r tiny_space_web/* _site/tiny-space/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

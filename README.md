@@ -24,6 +24,11 @@ A classic brick-breaker arcade game. Smash bricks with a bouncing ball across 5 
 
 **[Play in your browser](https://h2b-dev.github.io/fun-things/tiny-breakout/)**
 
+### Tiny Space
+A vertical shoot-em-up. Pilot your ship through 8 waves of enemies, dodge bullets, collect powerups, and defeat the boss. Features auto-fire, spread shots, shields, and high score tracking.
+
+**[Play in your browser](https://h2b-dev.github.io/fun-things/tiny-space/)**
+
 ## Install
 
 ```bash
