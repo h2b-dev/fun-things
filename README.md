@@ -1,6 +1,6 @@
 # Tiny Dungeon
 
-A tiny roguelike dungeon crawler that runs in your terminal. Explore 5 procedurally generated floors, fight enemies, collect loot, and try to clear the dungeon.
+A tiny roguelike dungeon crawler. Explore 5 procedurally generated floors, fight enemies, collect loot, and try to clear the dungeon. Available as a terminal game (Python/curses) and a browser game (JS/Canvas).
 
 ## Install
 
@@ -27,6 +27,10 @@ uv run -m tiny_dungeon
 ```
 
 Requires Python 3.10+.
+
+### Browser Version
+
+Open `tiny_dungeon_web/index.html` in any modern browser. No build tools or dependencies required.
 
 ## Controls
 

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a0a;
+  color: #cccccc;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#game {
+  display: block;
+  image-rendering: pixelated;
+  border: 1px solid #333;
+}
+
+#hud {
+  width: 800px;
+  padding: 6px 8px;
+  background: #1a1a1a;
+  color: #ffcc00;
+  font-size: 14px;
+  line-height: 1.4;
+  border: 1px solid #333;
+  border-top: none;
+  min-height: 24px;
+  white-space: nowrap;
+}
+
+#messages {
+  width: 800px;
+  padding: 4px 8px;
+  background: #111;
+  color: #66cccc;
+  font-size: 13px;
+  line-height: 1.3;
+  border: 1px solid #333;
+  border-top: none;
+  min-height: 52px;
+}
+
+#help {
+  width: 800px;
+  padding: 4px 8px;
+  background: #0a0a0a;
+  color: #666;
+  font-size: 12px;
+  border: 1px solid #333;
+  border-top: none;
+}
