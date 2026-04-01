@@ -26,6 +26,11 @@ tiny_puzzle_web/           — Tiny Puzzle / Sokoban (JS/Canvas)
   index.html               — Entry point, open in browser
   style.css                — Layout and styling
   game.js                  — All game logic, rendering, input (single file, no deps)
+
+tiny_breakout_web/         — Tiny Breakout / Brick Breaker (JS/Canvas)
+  index.html               — Entry point, open in browser
+  style.css                — Layout and styling
+  game.js                  — All game logic, rendering, input (single file, no deps)
 ```
 
 ## Running
@@ -35,7 +40,7 @@ Terminal version (Tiny Dungeon):
 uv run -m tiny_dungeon
 ```
 
-Browser games: open `tiny_dungeon_web/index.html`, `tiny_td_web/index.html`, or `tiny_puzzle_web/index.html` in a browser.
+Browser games: open `tiny_dungeon_web/index.html`, `tiny_td_web/index.html`, `tiny_puzzle_web/index.html`, or `tiny_breakout_web/index.html` in a browser.
 
 ## Key Design Decisions
 
@@ -59,3 +64,11 @@ Browser games: open `tiny_dungeon_web/index.html`, `tiny_td_web/index.html`, or 
 - **Undo system**: full move-by-move undo via history stack
 - **Level select**: click-to-play grid with completion tracking and best scores
 - **Progress persistence**: localStorage saves completed levels and best move counts
+
+### Tiny Breakout
+- **Classic brick breaker**: paddle, ball, bricks — reflex-based arcade action
+- **5 levels**: escalating speed, multi-hit bricks from level 3+
+- **4 powerup types**: Wide paddle, Multi-ball, Slow motion, Extra life (12% drop rate)
+- **Scoring**: row-based points (7/5/3/1) multiplied by level number
+- **Controls**: mouse (smooth follow) or arrow keys/WASD
+- **High score persistence**: localStorage tracks best score
