@@ -7,7 +7,7 @@ A collection of tiny browser games. No dependencies, no build tools — just ope
 ### Tiny Dungeon
 A roguelike dungeon crawler. Explore 5 procedurally generated floors, fight enemies, collect loot, and try to clear the dungeon. Available as a terminal game (Python/curses) and a browser game (JS/Canvas).
 
-**[Play in your browser](https://h2b-dev.github.io/fun-things/)**
+**[Play in your browser](https://h2b-dev.github.io/fun-things/)** | **[Play on itch.io](https://h2bdev.itch.io/tiny-dungeon)**
 
 ### Tiny Tower Defense
 A grid-based tower defense game. Place towers to stop waves of enemies from reaching the exit. 4 tower types, 4 enemy types, 12 waves of increasing difficulty.
