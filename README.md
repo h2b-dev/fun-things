@@ -2,6 +2,8 @@
 
 A tiny roguelike dungeon crawler. Explore 5 procedurally generated floors, fight enemies, collect loot, and try to clear the dungeon. Available as a terminal game (Python/curses) and a browser game (JS/Canvas).
 
+**[Play in your browser](https://h2b-dev.github.io/fun-things/)**
+
 ## Install
 
 ```bash
