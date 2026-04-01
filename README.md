@@ -1,8 +1,18 @@
-# Tiny Dungeon
+# Fun Things
 
-A tiny roguelike dungeon crawler. Explore 5 procedurally generated floors, fight enemies, collect loot, and try to clear the dungeon. Available as a terminal game (Python/curses) and a browser game (JS/Canvas).
+A collection of tiny browser games. No dependencies, no build tools — just open in a browser and play.
+
+## Games
+
+### Tiny Dungeon
+A roguelike dungeon crawler. Explore 5 procedurally generated floors, fight enemies, collect loot, and try to clear the dungeon. Available as a terminal game (Python/curses) and a browser game (JS/Canvas).
 
 **[Play in your browser](https://h2b-dev.github.io/fun-things/)**
+
+### Tiny Tower Defense
+A grid-based tower defense game. Place towers to stop waves of enemies from reaching the exit. 4 tower types, 4 enemy types, 12 waves of increasing difficulty.
+
+Open `tiny_td_web/index.html` in any modern browser.
 
 ## Install
 
@@ -30,7 +40,7 @@ uv run -m tiny_dungeon
 
 Requires Python 3.10+.
 
-### Browser Version
+### Browser Version (Tiny Dungeon)
 
 Open `tiny_dungeon_web/index.html` in any modern browser. No build tools or dependencies required.
 
