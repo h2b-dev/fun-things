@@ -22,7 +22,7 @@ A Sokoban-style puzzle game. Push crates onto target squares across 25 hand-craf
 ### Tiny Breakout
 A classic brick-breaker arcade game. Smash bricks with a bouncing ball across 5 levels of increasing difficulty. Features powerups (wide paddle, multi-ball, slow motion, extra life), particle effects, and high score tracking.
 
-Open `tiny_breakout_web/index.html` in any modern browser.
+**[Play in your browser](https://h2b-dev.github.io/fun-things/tiny-breakout/)**
 
 ## Install
 
